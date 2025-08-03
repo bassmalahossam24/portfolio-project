@@ -1,0 +1,60 @@
+.sidebar-img{
+    background-image: url('/images/sidebarimage.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 9.375rem;
+    height:9.375rem;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+.side-text {
+       font-weight: 700;
+    margin-bottom: .5rem;
+    font-size: 1.375rem;
+    font-family: Playfair Display, Georgia, serif;
+}
+.side-info{
+   
+    font-size: .75rem;
+    text-transform: uppercase;
+    display: inline;
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 400;
+    color: #000000b3;
+    line-height: 1.8;
+    text-align: center;
+     white-space: nowrap;
+}
+.side-span{
+   
+    color: #54a3d5;
+    
+    
+    
+}
+
+.side-link{
+
+    color: #494949;
+    position: relative;
+}
+
+.side-link::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -4px; 
+  width: 0;
+  height: 2px;
+  background-color:#54a3d5 ; 
+  transform: translateX(-50%);
+  transition: width 0.3s ease-in-out;
+}
+
+.side-link:hover::after {
+  width: 100%;
+}
+.active-link{
+    color: #54a3d5;
+   
+}

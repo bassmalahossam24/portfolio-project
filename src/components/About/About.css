@@ -1,0 +1,65 @@
+.about-para{
+       margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: Quicksand, Arial, sans-serif;
+}
+.who-header{
+        font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+   
+   
+    color: #000;
+    font-family: Playfair Display, Georgia, serif;
+}
+.about-me{
+    
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #000000b3;
+}
+
+.services {
+  box-shadow: 0 0 56px -8px #0000002b;
+  border-bottom: 2px solid #2c98f0;
+  padding: 1.5em;
+  margin-top: 1.5rem;
+ 
+  background: white;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.icon2 {
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+  color: #2c98f0;
+}
+
+.color-1 .icon2 { color: #f9b234; }
+.color-2 .icon2 { color: #3ec1d3; }
+.color-3 .icon2 { color: #ea5455; }
+.color-4 .icon2 { color: #2c98f0; }
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 0.5em;
+  white-space: nowrap;
+  
+}
+
