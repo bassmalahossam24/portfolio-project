@@ -1,0 +1,12 @@
+.sidebar-wrapper {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+@media (max-width: 767.98px) {
+  .sidebar-wrapper {
+    position: static;
+    height: auto;
+  }
+}
